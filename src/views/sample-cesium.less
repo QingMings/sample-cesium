@@ -1,0 +1,51 @@
+@import "~iez-navi/styles/cesium-navigation";
+
+// 个性化 导航样式
+.compass-outer-ring-background {
+  border: 12px solid #c8d3da;
+}
+
+.compass-outer-ring {
+  fill: #fff;
+  stroke: #404040;
+}
+
+.compass-gyro-background {
+  background-color: #2B87C4;
+  border: 1px solid #2B87C4;
+}
+
+.compass-gyro {
+  fill: #ffffff;
+}
+.compass-gyro-background:hover, .compass-gyro-background.active {
+  background-color: #226a9a;
+}
+.compass-gyro-background:hover + .compass-gyro {
+  fill: #ffffff;
+}
+.navigation-controls {
+  background: rgba(66, 61, 61, 0.5);
+  //border-color: rgba(88, 87, 87, 0.4);
+  border: 1px solid #226a9a;
+}
+.navigation-control,.navigation-control-last {
+  //.cesium-btn-style;
+}
+.navigation-control-icon-reset {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+.navigation-controls > div {
+  background-color: #2B87C4;
+  cursor: pointer;
+  border-bottom: 1px solid #226a9a;
+  &:hover{
+    background-color: #226a9a;
+  }
+}
+
+#distanceLegendDiv .distance-legend {
+
+  bottom: 27px;
+}
